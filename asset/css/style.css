@@ -1,0 +1,566 @@
+.ladi-wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.ladi-section {
+    margin: 0 auto;
+    position: relative;
+}
+.ladi-section-background {
+    background: url('../img/background/img.jpg') top center / cover no-repeat;
+}
+.ladi-model-background{
+    background: url('../img/background/img2.jpg') top center / cover no-repeat;
+
+}
+.ladi-section-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+.ladi-section .ladi-model-background {
+    position: absolute;
+    width: 100%;
+    height: 770px;
+    pointer-events: none;
+    overflow: hidden;
+}
+.ladi-container {
+    position: relative;
+    margin: 0 auto;
+    height: 730px;
+}
+.ladi-container2 {
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.ladi-content{
+    padding-top: 70px;
+}
+.ladi-logo{
+    text-align: center;
+}
+.ladi-logo__img{
+    width: 361.364px;
+    height: 114.211px;
+}
+.ladi-happy{
+    text-align: center;
+}
+.ladi-happy-heading{
+    font-size: 43px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    color: rgb(63, 63, 63);
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.ladi-use{
+    margin-top: 20px;
+    
+}
+.ladi-use__text{
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    text-align: center;
+	animation: beat .90s infinite alternate;
+	transform-origin: center;
+    background: url('../img/animation/img.png');
+    text-transform: uppercase;
+    padding: 2px 5px;
+    
+}
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+.ladi-su{
+    margin-top: 28px;
+}
+.ladi-su h3{
+    font-size: 36px;
+    color: rgb(209, 167, 121);
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ladi-login{
+    margin-top: 20px;
+    text-align: center;
+}
+.ladi-login__button{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    padding: 8px 36px;
+    border: none;;
+    background-color: rgb(209, 167, 121);
+    text-transform: uppercase;
+}
+.ladi-pro{
+    display: flex;
+    position: relative;
+    margin-top: 20px;   
+}
+.ladi-pro__picture{
+
+}
+.ladi-pro__img1{
+    width: 492px;
+    height: 328px;
+}
+.ladi-pro__img2{
+    width: 396px;
+    height: 264px;
+}
+.ladi-pro__picture1{
+  
+}
+.ladi-pro__picture2{
+    position: absolute;
+    left: 25%;
+    top: -6%;
+}
+.ladi-gift{
+    margin-left: 186px;
+    position: relative;
+    top: -5%;
+}
+.ladi-gift__text{
+    font-size: 21.1px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+.ladi-element {
+}
+.ladi-group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ladi-heading{
+    width: 571.719px;
+    height: 146.151px;
+    margin-left: 71px;
+}
+.ladi-heading__text{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    line-height: 1.6;
+    color: rgb(66, 66, 66);
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ladi-heading__text h3{
+    font-weight: 100;
+    position: relative;
+}
+.ladi-heading__text h3::after{
+    position: absolute;
+    content: "";
+    border-left: 1px solid #000;
+    height: 34px;
+    top: 5px;
+    left: 111%;
+}
+.ladi-heading__first{
+    display: flex;
+    position: relative;
+    left: 6%;
+    top: 12px;
+}
+.ladi-heading__second{
+    margin-top: 40px;
+    display: flex;
+}
+.ladi-heading__number{
+    margin-left: 40px;
+}
+.heading-number__text span{
+    text-decoration-line: line-through;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgb(66, 66, 66);
+}
+
+.heading-number__text-big br{
+    font-size: 18px;
+}
+.heading-number__text-big span{
+    text-decoration-line: line-through;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgb(66, 66, 66);
+}
+.dentos-main{
+    background-color: rgb(255, 255, 255);
+}
+.dentos-main.grid.wide {
+    margin-top: -130px;
+}
+.dentos-heading{
+    padding-top: 50px;
+}
+.dentos-heading__text{
+    font-size: 21px;
+    line-height: 1.6;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-weight: 200;
+}
+.dentos-sub{
+    margin-top: 8px;
+    text-align: center;
+}
+.dentos-sub__text{
+    font-size: 15px; 
+    line-height: 1.6;
+    color: rgb(79, 79, 79);
+    font-weight: 200;
+}
+.dentos-desc{
+    margin-top: 20px;
+    background-color: rgb(201, 170, 107);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.dentos-desc__text{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 9px 0px;
+}
+
+/* cer */
+.cer{
+
+}
+.cer-main{
+
+}
+.cer-option {
+    display: flex;
+}
+.cer-one__img{
+    width: 400px;
+    height: 600px;
+}
+.cer-option__img{
+    width: 266px;
+    height: 370px;
+}
+.cer-option__picture-two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.cer-option__picture1 img{
+    width: 288px;
+    height: 192px;
+}
+.cer-option__picture2 img{
+    width: 288px;
+    height: 174px;
+}
+.cer-option__sub img{
+    width: 564px;
+    height: 220px;
+}
+.cer-main{
+}   
+.cer-main-kun{
+    margin-left: 60px;
+}
+.cer-main_picture1{
+    width: 221px;
+    height: 370px;
+}
+.cer-main_picture2{
+    width: 207px;
+    height: 218px;
+}
+.cer-main img {
+    transition: all 0.3s ease;
+}
+
+.cer-main img:hover {
+    transform: scale(1.1);
+}
+.cer.row {
+    margin-top: 34px;
+}
+
+/* Beauty */
+.beauty-main{
+    position: relative;
+}
+.beauty-sub__picture img{
+    width: 80px;
+    height: 85px;
+}
+.beauty-main__picture img{
+    width: 100%;
+    height: 800px;
+}
+.beauty-main__picture {
+    margin-left: 15px;
+}
+.beauty.grid.second {
+    background-color: #fff;
+    padding: 34px 40px 17px;
+    box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+}
+.beauty-real{
+    text-align: center;
+    margin-top: 15px;
+}
+.beauty-real h3{
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+.ladi-feedback__right i:first-child{
+    position: absolute;
+    top: 46%;
+    left: 44px;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 20px;
+}
+.ladi-feedback__right i:last-child{
+    position: absolute;
+    top: 46%;
+    left: 92%;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 20px;
+}
+
+.video-content {
+    padding: 12px 10px;
+    background-color: #fff;
+    box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+}
+.video-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.video-content video {
+    width: 534px;
+    height: 300px;
+    object-fit: cover;
+}
+.video-content__left{
+    margin-left: 20px;
+    padding: 12px 10px;
+    background-color: #fff;
+    box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+}
+.video-content__left video {
+    width: 534px;
+    height: 300px;
+    object-fit: cover;
+}
+.location-text{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.feedback-main{
+    display: flex;
+    margin-top: 30px;
+}
+.feedback-heading{
+    margin-top: 30px;
+}
+.feedback-heading h3{
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+    color: rgb(26, 26, 26);
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.feedback-section2{
+    margin-left: 40px;
+}
+.feedback-img{
+    width: 415px;
+    height: 580px;
+}
+.feedback-section{
+    padding: 16px 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+}
+.feedback-section2{
+    padding: 16px 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+}
+.feedback-icon{
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feedback-icon i{
+    color: #FFBD59;
+    font-size: 12px;
+}
+.model{
+    width: 354px;
+    height: 432px;
+    background-color: #EEEEEE;
+    margin-left: 103px;
+    border-radius: 27px;
+}
+.model-content{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.model-main{
+    margin-top: 15px;
+}
+.model-button {
+    width: 310px;
+    height: 40px;
+    border: none; 
+    background-color: #fff;
+}
+.model-section {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-around;
+}
+.model-number{
+}
+.model-number__text{
+    color: #C9AA6B;
+    font-size: 22px;
+    font-weight: 600;
+}
+.model-number__day{
+    font-size: 12px;
+    color: #C9AA6B;
+}
+.model-sign{
+    margin-top: 24px;
+    text-align: center;
+}
+.model-sign__button{
+    border: none;
+    color: #fff; 
+    background-color: #C9AA6B;
+    padding: 15px 79px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 27px;
+}
+/* footer */
+.ladi-footing{
+    background-color: #23233A;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.clinic-icon__img
+{
+    width: 200px;
+    height: 86px;
+}
+.clinic-avatar{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 20;
+}
+.clinic-socail{
+    margin-right: 18px;
+}
+.clinic-social__img{
+    width: 50px;
+    height: 51px;
+    margin-right: 18px;
+}
+.clinic-text{
+    margin-top: 20px;
+}
+.clinic-text p {
+    padding-left: 6px;
+    font-size: 15px;
+    font-style: bold; 
+    color: #fff;
+}
+.clinic-time{
+    margin-top: 20px;
+    padding-left: 6px;
+    margin-bottom: 40px;
+}
+.clinic-time__link{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+    color: #fff;
+}
+.center-item{
+    margin-bottom: 60px;
+}
+.center-heading{
+    margin-top: 30px;
+    color: #CC9933;
+    font-size: 23px;
+}
+.center-content{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.center-icon__link{
+    color: #fff;
+
+}
+.center-text{
+    margin-left: 12px;
+}
+.center-text__heading{
+    color: #fff;
+}
+.center-text__desc{
+    color: #fff;
+    margin-top: 4px;
+}
+.dieuhuong2{
+    display: none;
+}
+
+
+

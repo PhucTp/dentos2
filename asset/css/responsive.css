@@ -1,0 +1,194 @@
+@media (max-width:740px) {
+    .cer-main img {
+        max-width: 740px;
+        transition: all 0.3s ease;
+    }
+
+    .cer-main img:hover {
+        transform: scale(1.1);
+    }
+    .ladi-content {
+        padding-top: 0;
+    }
+    .ladi-happy-heading {
+        font-size: 30px;
+        font-family: Roboto, sans-serif;
+        line-height: 1.2;
+        color: rgb(63, 63, 63);
+        letter-spacing: 3px;
+        font-weight: 400;
+    }
+    .ladi-su h3 {
+        font-size: 27px;
+        color: rgb(209, 167, 121);
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .ladi-heading {
+        width: 401.719px;
+        height: 146.151px;
+        margin-left: 0;
+        /* margin-left: 71px; */
+    }
+    .ladi-heading__text {
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        line-height: 1.6;
+        color: rgb(66, 66, 66);
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .ladi-heading__first {
+        display: flex;
+        position: relative;
+        left: 3%;
+        top: 12px;
+        align-items: center;
+    }
+    .ladi-container {
+        position: relative;
+        margin: 0 auto;
+        height: 1000px;
+    }
+    .ladi-gift {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .ladi-gift__text {
+        font-size: 20.1px;
+        font-weight: bold;
+        line-height: 1.6;
+        color: rgb(0, 0, 0);
+    }
+    .ladi-pro__picture1 {
+        position: relative;
+        left: -58px;
+    }
+    .ladi-pro__img1 {
+        width: 361px;
+        height: 328px;
+    }
+    .ladi-pro__picture2 {
+        position: absolute;
+        left: 25%;
+        top: 7%;
+    }
+    .ladi-pro__img2 {
+        width: 359px;
+        height: 249px;
+    }
+    .cer-main img {
+        max-width: 740px;
+        width: 400px;
+        transition: all 0.3s ease;
+    }
+    .cer-one__img {
+        width: 400px;
+        height: 400px;
+    }
+    img.cer-option__img {
+        display:  none;
+    }
+    .cer-option__picture1{
+        display: none;
+    }
+    .cer-option__picture2{
+        display: none;
+    }
+    .cer-option__sub{
+        display: none;
+    }
+    .cer-main-kun{
+        display: none;
+    }
+    .dieuhuong2{
+        display: block;
+    }
+    .beauty-content.row {
+        flex-wrap: nowrap;
+    }
+    .beauty.grid.second {
+        background-color: #fff;
+        padding: 34px 0px 17px;
+        box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+    }
+    .beauty-respon{
+        display: none;
+    }
+    .ladi-feedback__right i:first-child {
+        position: absolute;
+        top: 46%;
+        left: -9px;
+        color: #fff;
+        font-size: 24px;
+        padding: 12px 20px;
+    }
+    .ladi-feedback__right i:last-child {
+        position: absolute;
+        top: 46%;
+        left: 86%;
+        color: #fff;
+        font-size: 24px;
+        padding: 12px 20px;
+    }
+    .beauty-main__picture img {
+        width: 100%;
+        height: 356px;
+    }
+    .cer-main.col.l-4 {
+        position: relative;
+    }
+    .dieuhuong2 {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        justify-content: space-between;
+        width: 96%;
+    }
+    .left i {
+        font-size: 24px;
+        color: #fff;
+        padding: 5px;
+    }
+    .right i{
+        font-size: 24px;
+        color: #fff;
+    }
+    .beauty-main__picture {
+        /* margin-left: 15px; */
+        margin-left: 0;
+    }
+    .video-container {
+        flex-direction: column;
+    }
+    .video-content__left {
+        margin-left: 10px;
+        padding: 12px 10px;
+        background-color: #fff;
+        margin-right: 10px;
+        box-shadow: rgb(58, 58, 58) 0px 0px 30px -15px;
+    }
+    .video-content__left video {
+        width: 353px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .video-content video {
+        width: 365px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .model {
+        width: 354px;
+        height: 432px;
+        background-color: #EEEEEE;
+        margin-left: 103px;
+        border-radius: 27px;
+        position: relative;
+        top: 123%;
+        left: -17%;
+    }    
+
+}
